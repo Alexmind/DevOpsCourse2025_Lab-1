@@ -26,9 +26,27 @@ done
 if [[ $# -eq 0 ]] ; then
     echo "Введите имя города:"
     read CITYNAME
-    getInfo "$CITYNAME"
+    weather=$(getInfo "$CITYNAME")
 elif [[ $# -eq 1 ]] ; then
-    getInfo "$CITYNAME"
-else 
+    weather=$(getInfo "$CITYNAME")
+else
     echo "Usage: $0 [CITYNAME]"
 fi
+
+html="<!DOCTYPE html>
+<html>
+<head>
+<title>Lab#1 - DevOps_Course_2025</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Lab#1 - DevOps_Course_2025</h1>
+<p>${weather}</p>
+</body>
+</html>"
+
+echo "${html}"

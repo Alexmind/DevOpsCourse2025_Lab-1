@@ -8,6 +8,8 @@ Laboratory #1
 - [Technologies](#Technologies)
 - [Dependencies](#Dependencies)
 - [Usage](#Usage)
+- [Examples](#Examples)
+- [Screenshots](#Screenshots)
 
 ## 🔧 Technologies
 - bash

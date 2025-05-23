@@ -8,8 +8,8 @@ Laboratory #1
 ## 📃 Table of content
 - [Technologies](#Technologies)
 - [Dependencies](#Dependencies)
-- [Usage](#Usage)
-- [Examples](#Examples)
+- [Usage](#-Usage)
+- [Examples](#-Examples)
 - [Screenshots](#Screenshots)
 
 ## 🔧 Technologies

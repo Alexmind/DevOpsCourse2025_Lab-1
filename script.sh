@@ -8,7 +8,7 @@
 CITYNAME=$1
 
 # Функция для получения информации о погоде
-function getInfo () {
+function getWeatherInfo () {
     curl --silent "http://wttr.in/${1}?format=j1" | jq '.current_condition[0] | { "Local observation time": .localObsDateTime, "Temperature": .temp_C, "Humidity": .humidity }'
 }
 
@@ -23,12 +23,8 @@ for dependency in "${dependencies[@]}"; do
 done
 
 # Обработка ввода
-if [[ $# -eq 0 ]] ; then
-    echo "Введите имя города:"
-    read CITYNAME
-    weather=$(getInfo "$CITYNAME")
-elif [[ $# -eq 1 ]] ; then
-    weather=$(getInfo "$CITYNAME")
+if [[ $# -eq 1 ]] ; then
+    weather=$(getWeatherInfo "$CITYNAME")
 else
     echo "Usage: $0 [CITYNAME]"
 fi

@@ -6,11 +6,11 @@ Laboratory #1
 Скрипт запускаться по крону раз в минуту, вывод перенаправляется в index.html дефолтного сайта.
 
 ### 📃 Table of content
-- [Technologies](#Technologies)
-- [Dependencies](#Dependencies)
+- [Technologies](###Technologies)
+- [Dependencies](###Dependencies)
 - [Usage](#Usage)
 - [Examples](#Examples)
-- [Screenshots](#Screenshots)
+- [Screenshots](###Screenshots)
 
 ### 🔧 Technologies
 - bash

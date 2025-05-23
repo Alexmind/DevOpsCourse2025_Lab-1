@@ -10,7 +10,7 @@ Laboratory #1
 - [Dependencies](#Dependencies)
 - [Usage](#Usage)
 - [Examples](#Examples)
-- [Screenshots](#🖼️-Screenshots)
+- [Screenshots](#Screenshots)
 
 ## 🔧 Technologies
 - bash
@@ -26,7 +26,7 @@ script.sh [CITYNAME]
 ## 📋 Examples
 
 
-## 🖼️ Screenshots
+## Screenshots
 | ![Screenshot 2025-05-23 083809](https://github.com/user-attachments/assets/c0c2966a-566e-476a-8db2-e3acb01b5c62 "Script output") |
 |:-:|
 | *Script output* |

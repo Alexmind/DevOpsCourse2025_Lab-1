@@ -10,7 +10,7 @@ Laboratory #1
 - [Dependencies](#Dependencies)
 - [Usage](#Usage)
 - [Examples](#Examples)
-- [Screenshots](#-Screenshots)
+- [Screenshots](#🖼️-Screenshots)
 
 ## 🔧 Technologies
 - bash

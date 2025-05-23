@@ -24,13 +24,19 @@ Laboratory #1
 script.sh [CITYNAME]
 
 ## 📋 Examples
-
+./script.sh Perm
 
 ## 🖼 Screenshots
-| ![Screenshot 2025-05-23 083809](https://github.com/user-attachments/assets/c0c2966a-566e-476a-8db2-e3acb01b5c62 "Script output") |
+<div align="center">
+
+| ![Screenshot 2025-05-23 083809](https://github.com/user-attachments/assets/c0c2966a-566e-476a-8db2-e3acb01b5c62 "Script output") | 
 |:-:|
 | *Script output* |
+  
+
 
 | ![image](https://github.com/user-attachments/assets/9b17cc32-77eb-4c62-94a0-70448a523330) |
 |:-:|
 | *Webserver response* |
+
+</div>

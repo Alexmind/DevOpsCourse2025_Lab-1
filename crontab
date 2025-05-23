@@ -1,0 +1,1 @@
+* * * * * /home/alx/DevOpsCourse2025_Lab-1/script.sh Perm > /var/www/html/index.nginx-debian.html 2>> /home/alx/weather.err

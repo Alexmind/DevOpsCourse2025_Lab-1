@@ -1,32 +1,32 @@
 # DevOpsCourse2025_Lab-1
 Laboratory #1
 
-### 📜 Description
+## 📜 Description
 Простой скрипт который принимает в качестве входящего параметра город. Выводит время наблюдения, температуру и влажность в текущий день в этом городе.
 Скрипт запускаться по крону раз в минуту, вывод перенаправляется в index.html дефолтного сайта.
 
-### 📃 Table of content
-- [Technologies](###Technologies)
-- [Dependencies](###Dependencies)
+## 📃 Table of content
+- [Technologies](#Technologies)
+- [Dependencies](#Dependencies)
 - [Usage](#Usage)
 - [Examples](#Examples)
-- [Screenshots](###Screenshots)
+- [Screenshots](#Screenshots)
 
-### 🔧 Technologies
+## 🔧 Technologies
 - bash
 
-### ⚙️ Dependencies
+## ⚙️ Dependencies
 - curl
 - jq
 - nginx
 
-### 🚀 Usage
+## 🚀 Usage
 script.sh [CITYNAME]
 
-### 📋 Examples
+## 📋 Examples
 
 
-### 🖼️ Screenshots
+## 🖼️ Screenshots
 | ![Screenshot 2025-05-23 083809](https://github.com/user-attachments/assets/c0c2966a-566e-476a-8db2-e3acb01b5c62 "Script output") |
 |:-:|
 | *Script output* |

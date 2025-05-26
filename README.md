@@ -21,10 +21,10 @@ Laboratory #1
 - nginx
 
 ## 🚀 Usage
-```script.sh [CITYNAME]
+`script.sh [CITYNAME]
 
 ## 📋 Examples
-```./script.sh Perm
+`./script.sh Perm
 
 ## 🖼 Screenshots
 <div align="center">

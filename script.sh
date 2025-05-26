@@ -42,7 +42,7 @@ if [[ $# -eq 1 ]] ; then
     </body>
     </html>"
 
-    echo "${html}"
+    echo "${html}" 
 else
     echo "Usage: $0 [CITYNAME]"
 fi

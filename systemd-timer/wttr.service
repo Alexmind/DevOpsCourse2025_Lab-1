@@ -1,0 +1,14 @@
+# Thist service unit is for run the script
+# that show current weather for specified city.
+# by Alx
+
+[Unit]
+Description=Run the weather script
+
+[Service]
+Type=simple
+ExecStart=/home/alx/DevOpsCourse2025_Lab-1/script.sh Perm
+StandardOutput=file:/var/www/html/index.nginx-debian.html
+StandardError=file:/home/alx/weather.err
+User=alx
+Group=alx

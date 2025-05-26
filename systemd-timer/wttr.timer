@@ -1,0 +1,13 @@
+# This timer unit is for wttr.service
+# By Alx
+
+[Unit]
+Description="Run wttr.service every 1 minute"
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+AccuracySec=1s
+Unit=wttr.service
+
+[Install]
+WantedBy=timers.target
